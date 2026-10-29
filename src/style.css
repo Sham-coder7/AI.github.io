@@ -272,9 +272,14 @@ button:focus {
   color: #c770f0 !important;
   font-weight: 600 !important;
 }
+
 .Typewriter__cursor {
-  font-size: 2.4em !important;
-  color: #c770f0 !important;
+    font-size: 2.4em !important;
+}
+
+.myAvtar {
+    justify-content: center !important;
+    padding-top: 9em !important;
 }
 
 @media (max-width: 767px) {

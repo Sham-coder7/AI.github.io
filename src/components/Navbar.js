@@ -4,7 +4,7 @@ import Nav from "react-bootstrap/Nav";
 import Container from "react-bootstrap/Container";
 import logo from "../Assets/logo.svg";
 import { Link } from "react-router-dom";
-import { TbCertificate } from "react-icons/tb";
+// import { TbCertificate } from "react-icons/tb";
 import {
   AiOutlineHome,
   AiOutlineFundProjectionScreen,
@@ -78,7 +78,7 @@ function NavBar() {
               </Nav.Link>
             </Nav.Item>
 
-            <Nav.Item>
+                      {/*<Nav.Item>
               <Nav.Link
                 as={Link}
                 to="/certificates"
@@ -87,7 +87,7 @@ function NavBar() {
                 <TbCertificate style={{ marginBottom: "2px" }} /> Certificates
               </Nav.Link>
             </Nav.Item>
-
+*/}
             <Nav.Item>
               <Nav.Link
                 as={Link}

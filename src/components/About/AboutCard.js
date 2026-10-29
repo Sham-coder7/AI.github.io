@@ -3,38 +3,45 @@ import Card from "react-bootstrap/Card";
 import { ImPointRight } from "react-icons/im";
 
 function AboutCard() {
-  return (
-    <Card className="quote-card-view">
-      <Card.Body>
-        <blockquote className="blockquote mb-0">
-          <p style={{ textAlign: "justify" }}>
-            Hi Everyone, I am <span className="purple">Karim Ehab</span>{" "}
-            from <span className="purple">Cairo, Egypt</span>.
-            <br />
-            I am an <span className="purple">AI Engineer</span> with a strong background in software engineering, specializing in NLP, RAG systems, and autonomous AI agents.
-            <br />
-            I hold a B.Sc. in <span className="purple">Computer Engineering</span> (Very Good with Honors) from{" "}
-            <span className="purple">Benha University – Faculty of Engineering at Shoubra</span>.
-            <br />
-            <br />
-            Alongside developing AI systems, some activities that I am passionate about:
-          </p>
+    return (
+        <Card className="quote-card-view">
+            <Card.Body>
+                <blockquote className="blockquote mb-0">
+                    <p style={{ textAlign: "justify" }}>
+                        Hi Everyone, I am{" "}
+                        <span className="purple">Shimaa Elmorshedy</span> from{" "}
+                        <span className="purple">Egypt</span>.
+                        <br />
+                        I am an aspiring{" "}
+                        <span className="purple">AI Engineer</span> passionate about
+                        Machine Learning, Deep Learning, and developing AI-powered
+                        solutions to real-world problems.
+                        <br />
+                        I am currently studying{" "}
+                        <span className="purple">
+                            Computer Science and Artificial Intelligence
+                        </span>{" "}
+                        at Sadat City University.
+                        <br />
+                        <br />
+                        Some of the areas I enjoy exploring include:
+                    </p>
 
-          <ul>
-            <li className="about-activity">
-              <ImPointRight /> AI Content Creation &amp; Technical Publishing 🎥
-            </li>
-            <li className="about-activity">
-              <ImPointRight /> Community Mentorship &amp; AI Workshops 🎙️
-            </li>
-            <li className="about-activity">
-              <ImPointRight /> Exploring Emerging LLM &amp; Multi-Agent Research 🧠
-            </li>
-          </ul>
-        </blockquote>
-      </Card.Body>
-    </Card>
-  );
+                    <ul>
+                        <li className="about-activity">
+                            <ImPointRight /> Machine Learning &amp; Data Analysis 📊
+                        </li>
+                        <li className="about-activity">
+                            <ImPointRight /> Generative AI, LLMs &amp; RAG 🤖
+                        </li>
+                        <li className="about-activity">
+                            <ImPointRight /> NLP &amp; Computer Vision 🧠
+                        </li>
+                    </ul>
+                </blockquote>
+            </Card.Body>
+        </Card>
+    );
 }
 
 export default AboutCard;
